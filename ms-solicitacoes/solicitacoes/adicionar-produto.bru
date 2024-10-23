@@ -1,0 +1,19 @@
+meta {
+  name: adicionar-produto
+  type: http
+  seq: 2
+}
+
+put {
+  url: http://localhost:8080/v1/solicitacoes
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "idSolicitacao" : "4c5c39d9-7a24-4d88-a6c1-b533f5d2b402",
+    "idProduto" : 1,
+    "quantidade" : 3
+  }
+}

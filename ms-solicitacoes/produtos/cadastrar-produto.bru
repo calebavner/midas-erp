@@ -1,0 +1,18 @@
+meta {
+  name: cadastrar-produto
+  type: http
+  seq: 1
+}
+
+post {
+  url: http://localhost:8080/v1/produtos/cadastrar
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "descricao" : "TM241CE16T",
+    "valor" : 4500
+  }
+}

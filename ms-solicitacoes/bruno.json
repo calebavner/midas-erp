@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "ms-solicitacoes",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}
